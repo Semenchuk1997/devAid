@@ -153,9 +153,16 @@ li {
 	padding-top: 75px;
 	color: #074f66;
 	font-weight: bold;
+	text-align: center;
 }
 
-.title p {
+.title h3 {
+	color: #17baef; 
+	font-weight: bolder;
+	padding-top: 10px;
+}
+
+.title .title-text {
 	padding-top: 50px;
 	width: 75%;
 	margin: 0 auto;
@@ -188,6 +195,7 @@ li {
 
 #features {
 	background: #17baef;
+	margin-bottom: 100px;
 }
 
 #features ul{
@@ -204,6 +212,131 @@ li {
 	margin-right: 10px;
 }
 
-#get-started{
-	
+.get-started, .license{
+	background: #fff;
+	border-radius: 5px;
+	width: 800px;
+	margin: 0 auto;
+	position: relative;
+	display: table;
+	padding-bottom: 100px;
+	margin-bottom: 150px;
+}
+
+.get-started button {
+   display:block;
+   margin:0 auto;
+}
+
+.skills {
+	font-weight: bold;
+}
+
+.card-container {
+	margin: 0 auto;
+	width: 750px;
+}
+
+pre[class*="language-"] {
+    background: #272822;
+}
+pre[class*="language-"] {
+    padding: 1em;
+    margin: .5em 0;
+    overflow: auto;
+    border-radius: 0.3em;
+}
+
+code[class*="language-"], pre[class*="language-"] {
+    color: #f8f8f2;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+    font-family: Consolas, Monaco, 'Andale Mono', monospace;
+    direction: ltr;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    line-height: 1.5;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}
+
+.code {
+	margin-bottom: 50px;
+}
+
+.token.property, .token.tag, .token.constant, .token.symbol, .token.deleted {
+    color: #f92672;
+}
+
+.token.property, .token.tag, .token.constant, .token.symbol, .token.deleted {
+    color: #f92672;
+}
+
+.token.punctuation {
+    color: #f8f8f2;
+}
+
+.token.punctuation {
+    color: #f8f8f2;
+}
+
+.token.selector, .token.attr-name, .token.string, .token.char, .token.builtin, .token.inserted {
+    color: #a6e22e;
+}
+
+.license {
+	background: #fff;
+}
+
+.title-license h2 {
+	padding-top: 30px;
+	padding-bottom: 20px;
+	color: #074f66;
+	font-weight: bold;
+	text-align: center;
+}
+
+#exp {
+	width: 500px;
+	height: 200px;
+	background: #eee;
+	border-radius: 5px;
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+#exp:after{
+	content: '';
+	position: absolute;
+
+	width: 0;
+	height: 0;
+	border-top: 10px solid #eee;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	bottom: -10px;
+	left: 250px;
+}
+
+#exp p{
+	padding: 30px;
+}
+
+.fa-smile {
+	font-size: 40px;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 40px;
+	position: absolute;
+	top: 65%;
+	left: 52%;
+	transform: translate(-50%);
 }
